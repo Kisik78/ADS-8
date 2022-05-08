@@ -12,7 +12,6 @@ void Train::addCage(bool light) {
         first->prev = temp;
         tail->next = first;
     }
-
 }
 int Train::getLength() {
     if (uni == first && !first->light)
